@@ -1,0 +1,8 @@
+pull_request_rules:
+  - name: label when approved
+    conditions:
+      - approved-reviews-by=@Aswinjagadeesh1
+    actions:
+      label:
+        add:
+          - approved
